@@ -11,8 +11,14 @@
     <groupId>com.example</groupId>
     <artifactId>learn-springcloud</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <name>learn-springcloud</name>
     <description>learn-springcloud</description>
+    <modules>
+        <module>user-service</module>
+        <module>book-service</module>
+        <module>borrow-service</module>
+    </modules>
     <properties>
         <java.version>1.8</java.version>
     </properties>
@@ -26,6 +32,18 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.28</version>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.32</version>
         </dependency>
     </dependencies>
 

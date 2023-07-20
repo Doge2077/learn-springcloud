@@ -1,13 +1,11 @@
-package com.example;
+package com.service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LearnSpringcloudApplication {
-
+public class BorrowApplication {
     public static void main(String[] args) {
-        SpringApplication.run(LearnSpringcloudApplication.class, args);
+        SpringApplication.run(BorrowApplication.class, args);
     }
-
 }
