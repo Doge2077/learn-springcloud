@@ -1,6 +1,7 @@
 package com.user.service;
 
-import com.user.entity.User;
+
+import com.entity.user.entity.User;
 
 public interface UserService {
     User getUserByUid(Long uid);

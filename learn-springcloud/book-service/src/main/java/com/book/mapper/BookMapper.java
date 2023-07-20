@@ -1,6 +1,7 @@
 package com.book.mapper;
 
-import com.book.entity.Book;
+
+import com.entity.book.entity.Book;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 

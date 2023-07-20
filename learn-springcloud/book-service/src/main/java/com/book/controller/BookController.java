@@ -1,8 +1,9 @@
 package com.book.controller;
 
-import com.book.entity.Book;
+
 import com.book.service.BookService;
 
+import com.entity.book.entity.Book;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

@@ -1,8 +1,9 @@
 package com.book.service.impl;
 
-import com.book.entity.Book;
+
 import com.book.mapper.BookMapper;
 import com.book.service.BookService;
+import com.entity.book.entity.Book;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
