@@ -8,3 +8,8 @@ spring:
       discovery:
         # 配置Nacos注册中心地址
         server-addr: localhost:8848
+    sentinel:
+      transport:
+        dashboard: localhost:8858
+      # 将刚刚编写的请求映射设定为限流页面
+      block-page: /blocked

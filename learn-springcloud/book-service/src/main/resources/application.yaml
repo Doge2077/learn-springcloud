@@ -13,3 +13,7 @@ spring:
       discovery:
         # 配置Nacos注册中心地址
         server-addr: 192.168.75.1:8848
+    sentinel:
+      transport:
+        # 添加监控页面地址即可
+        dashboard: localhost:8858
