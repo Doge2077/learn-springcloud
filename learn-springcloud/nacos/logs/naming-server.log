@@ -1,0 +1,156 @@
+2023-07-21 15:25:46,427 INFO GlobalConfig{taskDispatchPeriod=2000, batchSyncKeyCount=1000, syncRetryDelay=5000, dataWarmup=false, expireInstance=true, loadDataRetryDelayMillis=30000}
+
+2023-07-21 15:25:46,873 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2023-07-21 15:25:46,874 INFO listen for service meta change
+
+2023-07-21 15:25:51,422 INFO [NACOS-DISTRO] healthy server list changed, old: [192.168.75.1:8848], new: [192.168.75.1:8848]
+
+2023-07-21 15:27:17,342 INFO GlobalConfig{taskDispatchPeriod=2000, batchSyncKeyCount=1000, syncRetryDelay=5000, dataWarmup=false, expireInstance=true, loadDataRetryDelayMillis=30000}
+
+2023-07-21 15:27:17,810 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2023-07-21 15:27:17,811 INFO listen for service meta change
+
+2023-07-21 15:27:22,339 INFO [NACOS-DISTRO] healthy server list changed, old: [192.168.75.1:8848], new: [192.168.75.1:8848]
+
+2023-07-21 15:27:28,776 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2023-07-21 15:27:28,777 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2023-07-21 15:27:40,932 ERROR [HEALTH-CHECK] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1679)
+	at java.base/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.processTask(TcpSuperSenseProcessor.java:137)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.run(TcpSuperSenseProcessor.java:154)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-07-21 15:29:26,391 INFO GlobalConfig{taskDispatchPeriod=2000, batchSyncKeyCount=1000, syncRetryDelay=5000, dataWarmup=false, expireInstance=true, loadDataRetryDelayMillis=30000}
+
+2023-07-21 15:29:26,864 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2023-07-21 15:29:26,864 INFO listen for service meta change
+
+2023-07-21 15:29:31,363 INFO [NACOS-DISTRO] healthy server list changed, old: [192.168.75.1:8848], new: [192.168.75.1:8848]
+
+2023-07-21 15:29:43,884 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2023-07-21 15:29:43,885 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2023-07-21 15:29:55,968 ERROR [HEALTH-CHECK] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1679)
+	at java.base/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.processTask(TcpSuperSenseProcessor.java:137)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.run(TcpSuperSenseProcessor.java:154)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-07-21 15:30:31,687 INFO GlobalConfig{taskDispatchPeriod=2000, batchSyncKeyCount=1000, syncRetryDelay=5000, dataWarmup=false, expireInstance=true, loadDataRetryDelayMillis=30000}
+
+2023-07-21 15:30:32,187 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2023-07-21 15:30:32,188 INFO listen for service meta change
+
+2023-07-21 15:30:36,672 INFO [NACOS-DISTRO] healthy server list changed, old: [192.168.75.1:8848], new: [192.168.75.1:8848]
+
+2023-07-21 15:33:19,467 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2023-07-21 15:33:19,468 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2023-07-21 15:33:22,497 ERROR [HEALTH-CHECK] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1679)
+	at java.base/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.processTask(TcpSuperSenseProcessor.java:137)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.run(TcpSuperSenseProcessor.java:154)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-07-21 16:54:59,466 INFO GlobalConfig{taskDispatchPeriod=2000, batchSyncKeyCount=1000, syncRetryDelay=5000, dataWarmup=false, expireInstance=true, loadDataRetryDelayMillis=30000}
+
+2023-07-21 16:54:59,901 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2023-07-21 16:54:59,901 INFO listen for service meta change
+
+2023-07-21 16:55:04,442 INFO [NACOS-DISTRO] healthy server list changed, old: [192.168.75.1:8848], new: [192.168.75.1:8848]
+
+2023-07-21 16:59:09,289 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2023-07-21 16:59:09,291 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2023-07-21 16:59:23,086 ERROR [HEALTH-CHECK] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1679)
+	at java.base/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.processTask(TcpSuperSenseProcessor.java:137)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.run(TcpSuperSenseProcessor.java:154)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-07-21 16:59:41,269 INFO GlobalConfig{taskDispatchPeriod=2000, batchSyncKeyCount=1000, syncRetryDelay=5000, dataWarmup=false, expireInstance=true, loadDataRetryDelayMillis=30000}
+
+2023-07-21 16:59:41,719 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2023-07-21 16:59:41,720 INFO listen for service meta change
+
+2023-07-21 16:59:46,257 INFO [NACOS-DISTRO] healthy server list changed, old: [192.168.75.1:8848], new: [192.168.75.1:8848]
+
+2023-07-21 17:09:30,539 INFO GlobalConfig{taskDispatchPeriod=2000, batchSyncKeyCount=1000, syncRetryDelay=5000, dataWarmup=false, expireInstance=true, loadDataRetryDelayMillis=30000}
+
+2023-07-21 17:09:31,017 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2023-07-21 17:09:31,017 INFO listen for service meta change
+
+2023-07-21 17:09:35,523 INFO [NACOS-DISTRO] healthy server list changed, old: [192.168.75.1:8848], new: [192.168.75.1:8848]
+
+2023-07-21 17:11:22,857 INFO GlobalConfig{taskDispatchPeriod=2000, batchSyncKeyCount=1000, syncRetryDelay=5000, dataWarmup=false, expireInstance=true, loadDataRetryDelayMillis=30000}
+
+2023-07-21 17:11:23,339 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2023-07-21 17:11:23,339 INFO listen for service meta change
+
+2023-07-21 17:11:27,849 INFO [NACOS-DISTRO] healthy server list changed, old: [192.168.75.1:8848], new: [192.168.75.1:8848]
+
+2023-07-21 17:12:01,002 INFO GlobalConfig{taskDispatchPeriod=2000, batchSyncKeyCount=1000, syncRetryDelay=5000, dataWarmup=false, expireInstance=true, loadDataRetryDelayMillis=30000}
+
+2023-07-21 17:12:01,473 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2023-07-21 17:12:01,474 INFO listen for service meta change
+
+2023-07-21 17:12:05,995 INFO [NACOS-DISTRO] healthy server list changed, old: [192.168.75.1:8848], new: [192.168.75.1:8848]
+
+2023-07-21 17:13:11,741 INFO GlobalConfig{taskDispatchPeriod=2000, batchSyncKeyCount=1000, syncRetryDelay=5000, dataWarmup=false, expireInstance=true, loadDataRetryDelayMillis=30000}
+
+2023-07-21 17:13:12,184 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2023-07-21 17:13:12,185 INFO listen for service meta change
+
+2023-07-21 17:13:16,733 INFO [NACOS-DISTRO] healthy server list changed, old: [192.168.75.1:8848], new: [192.168.75.1:8848]
+
+2023-07-21 17:15:28,954 INFO GlobalConfig{taskDispatchPeriod=2000, batchSyncKeyCount=1000, syncRetryDelay=5000, dataWarmup=false, expireInstance=true, loadDataRetryDelayMillis=30000}
+
+2023-07-21 17:15:29,339 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2023-07-21 17:15:29,340 INFO listen for service meta change
+
+2023-07-21 17:15:33,939 INFO [NACOS-DISTRO] healthy server list changed, old: [192.168.75.1:8848], new: [192.168.75.1:8848]
+

@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="负载均衡，启动！" type="CompoundRunConfigurationType">
+    <toRun name="BookApplication" type="SpringBootApplicationConfigurationType" />
+    <toRun name="BookApplication02" type="SpringBootApplicationConfigurationType" />
+    <toRun name="BorrowApplication" type="SpringBootApplicationConfigurationType" />
+    <toRun name="UserApplication" type="SpringBootApplicationConfigurationType" />
+    <toRun name="UserApplication02" type="SpringBootApplicationConfigurationType" />
+    <method v="2" />
+  </configuration>
+</component>

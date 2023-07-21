@@ -1,8 +1,15 @@
 server:
-  port: 8802
+  port: 8701
 spring:
+  application:
+    name: bookservice
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/learn_springcloud
     username: root
     password: 023017lys
+  cloud:
+    nacos:
+      discovery:
+        # 配置Nacos注册中心地址
+        server-addr: 192.168.75.1:8848
