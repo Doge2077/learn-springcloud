@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Fri Jul 21 17:19:41 CST 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0189-77bf-6c53-0000181d9800 
+on database directory L:\JAVA\springcloud\nacos\data\derby-data with class loader org.springframework.boot.loader.LaunchedURLClassLoader@3581c5f3 
+Loaded from jar:file:/L:/JAVA/springcloud/nacos/target/nacos-server.jar!/BOOT-INF/lib/derby-10.14.2.0.jar!/
+java.vendor=Azul Systems, Inc.
+java.runtime.version=17.0.7+7-LTS
+user.dir=L:\JAVA\springcloud\nacos\bin
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

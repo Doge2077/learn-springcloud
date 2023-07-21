@@ -1,0 +1,10 @@
+2023-07-21 18:45:26,030 INFO [dump-task] add task. groupKey=user-sercice-dev.yml+DEFAULT_GROUP, taskKey=user-sercice-dev.yml+DEFAULT_GROUP++false+null
+
+2023-07-21 18:46:39,270 INFO [dump-task] add task. groupKey=user-sercice-dev.yml+DEFAULT_GROUP, taskKey=user-sercice-dev.yml+DEFAULT_GROUP++false+null
+
+2023-07-21 18:47:10,065 INFO [dump-task] add task. groupKey=userservice-dev.yml+DEFAULT_GROUP, taskKey=userservice-dev.yml+DEFAULT_GROUP++false+null
+
+2023-07-21 18:51:21,619 INFO [dump-task] add task. groupKey=userservice-dev.yml+DEFAULT_GROUP, taskKey=userservice-dev.yml+DEFAULT_GROUP++false+null
+
+2023-07-21 18:51:47,834 INFO [dump-task] add task. groupKey=borrowservice-dev.yaml+DEFAULT_GROUP, taskKey=borrowservice-dev.yaml+DEFAULT_GROUP++false+null
+

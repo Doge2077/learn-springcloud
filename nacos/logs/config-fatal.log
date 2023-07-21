@@ -172,3 +172,5 @@ java.lang.IllegalArgumentException: db.num is null
 	at org.springframework.boot.loader.Launcher.launch(Launcher.java:108)
 	at org.springframework.boot.loader.Launcher.launch(Launcher.java:58)
 	at org.springframework.boot.loader.PropertiesLauncher.main(PropertiesLauncher.java:467)
+2023-07-21 17:19:42,830 WARN isQuickStart:false
+

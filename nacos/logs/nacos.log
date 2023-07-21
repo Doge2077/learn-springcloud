@@ -468,3 +468,251 @@ Caused by: java.lang.RuntimeException: [db-load-error]load jdbc.properties error
 	at com.alibaba.nacos.config.server.service.datasource.ExternalDataSourceServiceImpl.init(ExternalDataSourceServiceImpl.java:109)
 	at com.alibaba.nacos.config.server.service.datasource.DynamicDataSource.getDataSource(DynamicDataSource.java:53)
 	... 166 common frames omitted
+2023-07-21 17:19:38,029 INFO Starting Nacos v1.4.3 on RomanticosDoge with PID 17484 (L:\JAVA\springcloud\nacos\target\nacos-server.jar started by lys in L:\JAVA\springcloud\nacos\bin)
+
+2023-07-21 17:19:38,029 INFO The following profiles are active: standalone
+
+2023-07-21 17:19:40,098 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@1c9f0a20' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2023-07-21 17:19:40,105 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2023-07-21 17:19:40,517 INFO Tomcat initialized with port(s): 8848 (http)
+
+2023-07-21 17:19:40,543 INFO Starting service [Tomcat]
+
+2023-07-21 17:19:40,543 INFO Starting Servlet engine: [Apache Tomcat/9.0.38]
+
+2023-07-21 17:19:40,795 INFO At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+
+2023-07-21 17:19:40,829 INFO Initializing Spring embedded WebApplicationContext
+
+2023-07-21 17:19:40,829 INFO Root WebApplicationContext: initialization completed in 2753 ms
+
+2023-07-21 17:19:41,157 INFO HikariPool-1 - Starting...
+
+2023-07-21 17:19:41,163 WARN Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+
+2023-07-21 17:19:41,528 INFO HikariPool-1 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+
+2023-07-21 17:19:41,529 INFO HikariPool-1 - Start completed.
+
+2023-07-21 17:19:42,232 INFO Nacos-related cluster resource initialization
+
+2023-07-21 17:19:42,244 INFO The cluster resource is initialized
+
+2023-07-21 17:19:42,572 INFO Reflections took 28 ms to scan 1 urls, producing 4 keys and 6 values 
+
+2023-07-21 17:19:42,593 INFO Reflections took 4 ms to scan 1 urls, producing 6 keys and 26 values 
+
+2023-07-21 17:19:42,605 INFO Reflections took 2 ms to scan 1 urls, producing 3 keys and 15 values 
+
+2023-07-21 17:19:42,612 INFO Reflections took 2 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2023-07-21 17:19:43,156 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2023-07-21 17:19:43,241 INFO Adding welcome page: class path resource [static/index.html]
+
+2023-07-21 17:19:43,487 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2023-07-21 17:19:48,518 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@25f723b0, org.springframework.security.web.context.SecurityContextPersistenceFilter@6a916402, org.springframework.security.web.header.HeaderWriterFilter@6bc24e72, org.springframework.security.web.csrf.CsrfFilter@5edacf20, org.springframework.security.web.authentication.logout.LogoutFilter@1084f78c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6d2a2560, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@18539cb1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4aa11206, org.springframework.security.web.session.SessionManagementFilter@5034f5dd, org.springframework.security.web.access.ExceptionTranslationFilter@3f362135]
+
+2023-07-21 17:19:48,569 INFO Initializing ExecutorService 'taskScheduler'
+
+2023-07-21 17:19:48,589 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2023-07-21 17:19:48,659 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2023-07-21 17:19:48,662 INFO Started Nacos in 11.585 seconds (JVM running for 12.053)
+
+2023-07-21 17:19:48,663 INFO Nacos started successfully in stand alone mode. use embedded storage
+
+2023-07-21 17:19:50,131 INFO Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x000x010x000x010xfc0x030x030xd7z0xfa0xa850xca0xceL&0x8f0xf30xd5o0xd7O0xe80xeb0x1520xaa0x0c0xfb0x080xc3|0x0e0x90z0xb50x0f0xa2X]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:413)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:261)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-07-21 17:19:50,169 INFO Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x000x010x000x010xfc0x030x0360xea#l0xd30xe20x030xd2y0x8a0xad0x8e0xb20xa20x990xd30xce0x11I50xf1U0x9e0x90H0xcc0xe90xd70xe80x870x930x18]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:413)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:261)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-07-21 17:19:51,174 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2023-07-21 17:19:51,174 INFO Initializing Servlet 'dispatcherServlet'
+
+2023-07-21 17:19:51,181 INFO Completed initialization in 6 ms
+
+2023-07-21 17:29:42,773 INFO [capacityManagement] start correct usage
+
+2023-07-21 17:29:42,780 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-21 17:29:42,914 WARN clearConfigHistory start
+
+2023-07-21 17:39:42,789 INFO [capacityManagement] start correct usage
+
+2023-07-21 17:39:42,790 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-21 17:39:42,931 WARN clearConfigHistory start
+
+2023-07-21 17:49:42,804 INFO [capacityManagement] start correct usage
+
+2023-07-21 17:49:42,805 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-21 17:49:42,944 WARN clearConfigHistory start
+
+2023-07-21 17:59:42,814 INFO [capacityManagement] start correct usage
+
+2023-07-21 17:59:42,814 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-21 17:59:42,954 WARN clearConfigHistory start
+
+2023-07-21 18:09:42,829 INFO [capacityManagement] start correct usage
+
+2023-07-21 18:09:42,829 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-21 18:09:42,971 WARN clearConfigHistory start
+
+2023-07-21 18:19:42,840 INFO [capacityManagement] start correct usage
+
+2023-07-21 18:19:42,840 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-21 18:19:42,981 WARN clearConfigHistory start
+
+2023-07-21 18:29:42,849 INFO [capacityManagement] start correct usage
+
+2023-07-21 18:29:42,849 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-21 18:29:42,989 WARN clearConfigHistory start
+
+2023-07-21 18:39:42,852 INFO [capacityManagement] start correct usage
+
+2023-07-21 18:39:42,852 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-21 18:39:42,992 WARN clearConfigHistory start
+
+2023-07-21 18:49:42,865 INFO [capacityManagement] start correct usage
+
+2023-07-21 18:49:42,865 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-21 18:49:43,007 WARN clearConfigHistory start
+
+2023-07-21 18:59:42,872 INFO [capacityManagement] start correct usage
+
+2023-07-21 18:59:42,872 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-21 18:59:43,010 WARN clearConfigHistory start
+
+2023-07-21 19:09:42,878 INFO [capacityManagement] start correct usage
+
+2023-07-21 19:09:42,879 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-21 19:09:43,018 WARN clearConfigHistory start
+
+2023-07-21 19:19:42,881 INFO [capacityManagement] start correct usage
+
+2023-07-21 19:19:42,881 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-21 19:19:43,022 WARN clearConfigHistory start
+
+2023-07-21 19:29:42,886 INFO [capacityManagement] start correct usage
+
+2023-07-21 19:29:42,886 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-21 19:29:43,025 WARN clearConfigHistory start
+
+2023-07-21 19:39:42,895 INFO [capacityManagement] start correct usage
+
+2023-07-21 19:39:42,896 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-21 19:39:43,036 WARN clearConfigHistory start
+
+2023-07-21 19:49:42,905 INFO [capacityManagement] start correct usage
+
+2023-07-21 19:49:42,905 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-21 19:49:43,037 WARN clearConfigHistory start
+
+2023-07-21 19:59:42,906 INFO [capacityManagement] start correct usage
+
+2023-07-21 19:59:42,906 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-21 19:59:43,048 WARN clearConfigHistory start
+
+2023-07-21 20:09:42,916 INFO [capacityManagement] start correct usage
+
+2023-07-21 20:09:42,916 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-21 20:09:43,057 WARN clearConfigHistory start
+
+2023-07-21 20:19:42,919 INFO [capacityManagement] start correct usage
+
+2023-07-21 20:19:42,919 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-21 20:19:43,060 WARN clearConfigHistory start
+
+2023-07-21 20:29:42,931 INFO [capacityManagement] start correct usage
+
+2023-07-21 20:29:42,931 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-21 20:29:43,072 WARN clearConfigHistory start
+
+2023-07-21 20:39:42,943 INFO [capacityManagement] start correct usage
+
+2023-07-21 20:39:42,943 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-21 20:39:43,086 WARN clearConfigHistory start
+
+2023-07-21 20:49:42,951 INFO [capacityManagement] start correct usage
+
+2023-07-21 20:49:42,952 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-21 20:49:43,092 WARN clearConfigHistory start
+
+2023-07-21 20:59:42,961 INFO [capacityManagement] start correct usage
+
+2023-07-21 20:59:42,961 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-21 20:59:43,102 WARN clearConfigHistory start
+
+2023-07-21 21:09:42,971 INFO [capacityManagement] start correct usage
+
+2023-07-21 21:09:42,971 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-21 21:09:43,113 WARN clearConfigHistory start
+
+2023-07-21 21:19:42,985 INFO [capacityManagement] start correct usage
+
+2023-07-21 21:19:42,985 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-21 21:19:43,127 WARN clearConfigHistory start
+
+2023-07-21 21:29:42,999 INFO [capacityManagement] start correct usage
+
+2023-07-21 21:29:43,000 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-21 21:29:43,140 WARN clearConfigHistory start
+
+2023-07-21 21:39:43,007 INFO [capacityManagement] start correct usage
+
+2023-07-21 21:39:43,008 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-07-21 21:39:43,148 WARN clearConfigHistory start
+
