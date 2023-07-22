@@ -12,3 +12,113 @@
 
 2023-07-22 11:18:15,015 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.75.1:8702_true,192.168.75.1:8701_true,
 
+2023-07-22 11:18:29,995 INFO {POS} {IP-DISABLED} valid: 192.168.75.1:8801@DEFAULT@DEFAULT_GROUP@@borrowservice, region: unknown, msg: client timeout after 15000, last beat: 1689995894960
+
+2023-07-22 11:18:29,995 INFO {POS} {IP-DISABLED} valid: 192.168.75.1:8601@DEFAULT@DEFAULT_GROUP@@userservice, region: unknown, msg: client timeout after 15000, last beat: 1689995894960
+
+2023-07-22 11:18:29,995 INFO {POS} {IP-DISABLED} valid: 192.168.75.1:8702@DEFAULT@DEFAULT_GROUP@@bookservice, region: unknown, msg: client timeout after 15000, last beat: 1689995894960
+
+2023-07-22 11:18:29,996 INFO {POS} {IP-DISABLED} valid: 192.168.75.1:8602@DEFAULT@DEFAULT_GROUP@@userservice, region: unknown, msg: client timeout after 15000, last beat: 1689995894960
+
+2023-07-22 11:18:29,996 INFO {POS} {IP-DISABLED} valid: 192.168.75.1:8701@DEFAULT@DEFAULT_GROUP@@bookservice, region: unknown, msg: client timeout after 15000, last beat: 1689995894960
+
+2023-07-22 11:18:34,066 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.75.1:8702_false,192.168.75.1:8701_false,
+
+2023-07-22 11:18:34,066 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.75.1:8702_false,192.168.75.1:8701_false,
+
+2023-07-22 11:18:35,445 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.75.1:8702_false,192.168.75.1:8701_false,
+
+2023-07-22 11:18:35,448 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.75.1:8702_false,192.168.75.1:8701_false,
+
+2023-07-22 11:18:38,522 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.75.1:8601_false,192.168.75.1:8602_false,
+
+2023-07-22 11:18:39,070 INFO service: DEFAULT_GROUP@@bookservice {POS} {IP-ENABLED} valid: 192.168.75.1:8701@DEFAULT, region: unknown, msg: client beat ok
+
+2023-07-22 11:18:39,857 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.75.1:8601_false,192.168.75.1:8602_false,
+
+2023-07-22 11:18:43,536 INFO service: DEFAULT_GROUP@@userservice {POS} {IP-ENABLED} valid: 192.168.75.1:8601@DEFAULT, region: unknown, msg: client beat ok
+
+2023-07-22 11:18:45,050 INFO DEFAULT_GROUP@@borrowservice {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.75.1:8801:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-07-22 11:18:45,050 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 
+
+2023-07-22 11:18:45,083 INFO service: DEFAULT_GROUP@@bookservice {POS} {IP-ENABLED} valid: 192.168.75.1:8702@DEFAULT, region: unknown, msg: client beat ok
+
+2023-07-22 11:18:49,570 INFO service: DEFAULT_GROUP@@userservice {POS} {IP-ENABLED} valid: 192.168.75.1:8602@DEFAULT, region: unknown, msg: client beat ok
+
+2023-07-22 11:23:06,466 INFO DEFAULT_GROUP@@borrowservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.75.1:8801:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-07-22 11:23:06,466 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.75.1:8801_true,
+
+2023-07-22 11:26:13,388 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.75.1:8701:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-07-22 11:26:13,388 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.75.1:8702_true,
+
+2023-07-22 11:26:13,389 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.75.1:8702_true,
+
+2023-07-22 11:26:13,427 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.75.1:8702:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-07-22 11:26:13,428 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 
+
+2023-07-22 11:26:13,428 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 
+
+2023-07-22 11:26:13,459 INFO DEFAULT_GROUP@@borrowservice {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.75.1:8801:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-07-22 11:26:13,459 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 
+
+2023-07-22 11:26:13,478 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.75.1:8601:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-07-22 11:26:13,478 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.75.1:8602_true,
+
+2023-07-22 11:26:13,488 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.75.1:8602:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-07-22 11:26:13,488 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 
+
+2023-07-22 11:26:31,112 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.75.1:8701:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-07-22 11:26:31,112 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.75.1:8701_true,
+
+2023-07-22 11:26:31,112 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.75.1:8701_true,
+
+2023-07-22 11:26:33,757 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.75.1:8601:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-07-22 11:26:33,757 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.75.1:8601_true,
+
+2023-07-22 11:26:35,077 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.75.1:8602:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-07-22 11:26:35,077 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.75.1:8601_true,192.168.75.1:8602_true,
+
+2023-07-22 11:26:35,967 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.75.1:8702:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-07-22 11:26:35,967 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.75.1:8702_true,192.168.75.1:8701_true,
+
+2023-07-22 11:26:35,967 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.75.1:8702_true,192.168.75.1:8701_true,
+
+2023-07-22 11:26:39,705 INFO DEFAULT_GROUP@@borrowservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.75.1:8801:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-07-22 11:26:39,705 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.75.1:8801_true,
+
+2023-07-22 11:29:11,735 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.75.1:8701:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-07-22 11:29:11,735 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.75.1:8702_true,
+
+2023-07-22 11:29:11,735 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.75.1:8702_true,
+
+2023-07-22 11:29:11,770 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.75.1:8601:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-07-22 11:29:11,770 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.75.1:8602_true,
+
+2023-07-22 11:29:11,800 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.75.1:8602:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-07-22 11:29:11,800 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 
+
+2023-07-22 11:29:11,826 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.75.1:8702:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-07-22 11:29:11,826 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 
+
+2023-07-22 11:29:11,826 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 
+
+2023-07-22 11:29:11,850 INFO DEFAULT_GROUP@@borrowservice {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.75.1:8801:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-07-22 11:29:11,850 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 
+
