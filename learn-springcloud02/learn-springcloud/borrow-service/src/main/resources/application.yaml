@@ -6,3 +6,10 @@ spring:
     url: jdbc:mysql://localhost:3306/learn_springcloud
     username: root
     password: 023017lys
+  session:
+    # 存储类型修改为redis
+    store-type: redis
+  redis:
+    # Redis服务器的信息，该咋写咋写
+    host: localhost
+    port: 6379
