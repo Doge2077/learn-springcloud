@@ -17,3 +17,11 @@ spring:
       transport:
         # 添加监控页面地址即可
         dashboard: localhost:8858
+seata:
+  service:
+    vgroup-mapping:
+      # 这里需要对事务组做映射，默认的分组名为 应用名称-seata-service-group，将其映射到default集群
+      # 这个很关键，一定要配置对，不然会找不到服务
+      userservice-seata-service-group: default
+    grouplist:
+      default: localhost:8091

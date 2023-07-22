@@ -1,6 +1,5 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Alibaba，启动！" type="CompoundRunConfigurationType">
-    <toRun name="SentinelServer" type="JarApplication" />
     <toRun name="BookApplication" type="SpringBootApplicationConfigurationType" />
     <toRun name="BookApplication02" type="SpringBootApplicationConfigurationType" />
     <toRun name="BorrowApplication" type="SpringBootApplicationConfigurationType" />
