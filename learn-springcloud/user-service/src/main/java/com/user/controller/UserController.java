@@ -20,4 +20,15 @@ public class UserController {
         return userService.getUserByUid(uid);
     }
 
+    @RequestMapping("/user/remain/{uid}")
+    public Integer userRemain(@PathVariable("uid") Long uid){
+        return userService.getRemain(uid);
+    }
+
+    @RequestMapping("/user/borrow/{uid}")
+    public Boolean userBorrow(@PathVariable("uid") Long uid){
+        int remain = userService.getRemain(uid);
+        return userService.setRemain(uid, remain - 1);
+    }
+
 }

@@ -1,8 +1,14 @@
-2023-07-21 15:27:37,895 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+2023-07-22 11:18:15,004 INFO DEFAULT_GROUP@@borrowservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.75.1:8801:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2023-07-21 15:29:49,936 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+2023-07-22 11:18:15,007 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrowservice, ips: 192.168.75.1:8801_true,
 
-2023-07-21 15:33:28,969 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+2023-07-22 11:18:15,014 INFO DEFAULT_GROUP@@userservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 2, content: [192.168.75.1:8601:unknown:DEFAULT_1.0_true_false_DEFAULT, 192.168.75.1:8602:unknown:DEFAULT_1.0_true_false_DEFAULT]
 
-2023-07-21 16:59:13,983 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+2023-07-22 11:18:15,014 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@userservice, ips: 192.168.75.1:8601_true,192.168.75.1:8602_true,
+
+2023-07-22 11:18:15,015 INFO DEFAULT_GROUP@@bookservice {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 2, content: [192.168.75.1:8702:unknown:DEFAULT_1.0_true_false_DEFAULT, 192.168.75.1:8701:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-07-22 11:18:15,015 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.75.1:8702_true,192.168.75.1:8701_true,
+
+2023-07-22 11:18:15,015 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@bookservice, ips: 192.168.75.1:8702_true,192.168.75.1:8701_true,
 

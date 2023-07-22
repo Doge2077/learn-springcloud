@@ -20,4 +20,15 @@ public class BookController {
         System.out.println(bookService.getBookByBid(bid));
         return bookService.getBookByBid(bid);
     }
+
+    @RequestMapping("/book/remain/{bid}")
+    public Integer bookRemain(@PathVariable("bid") Long uid){
+        return bookService.getRemain(uid);
+    }
+
+    @RequestMapping("/book/borrow/{bid}")
+    public Boolean bookBorrow(@PathVariable("bid") Long uid){
+        int remain = bookService.getRemain(uid);
+        return bookService.setRemain(uid, remain - 1);
+    }
 }

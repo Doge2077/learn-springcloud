@@ -7,4 +7,7 @@ import java.util.List;
 public interface BorrowService {
 
     UserBorrowDetail getUserBorrowDetailByUid(Long uid);
+
+    Boolean doBorrow(Long uid, Long bid);
+
 }

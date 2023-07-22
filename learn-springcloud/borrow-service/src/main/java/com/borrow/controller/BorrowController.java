@@ -29,4 +29,16 @@ public class BorrowController {
         return object;
     }
 
+    @RequestMapping("/borrow/take/{uid}/{bid}")
+    JSONObject borrow(@PathVariable("uid") Long uid,
+                      @PathVariable("bid") Long bid){
+        borrowService.doBorrow(uid, bid);
+
+        JSONObject object = new JSONObject();
+        object.put("code", "200");
+        object.put("success", false);
+        object.put("message", "借阅成功！");
+        return object;
+    }
+
 }

@@ -10,4 +10,10 @@ public interface UserClient {
 
     @RequestMapping("/user/{uid}")
     User getUserById(@PathVariable("uid") Long uid);
+
+    @RequestMapping("/user/borrow/{uid}")
+    Boolean userBorrow(@PathVariable("uid") Long uid);
+
+    @RequestMapping("/user/remain/{uid}")
+    Integer userRemain(@PathVariable("uid") Long uid);
 }
